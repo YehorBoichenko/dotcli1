@@ -1,0 +1,94 @@
+{
+  "clazz" : "SimpleContentType",
+  "id" : "949393a0ea48ec27aaf44b1ee8656bcb",
+  "name" : "Product",
+  "variable" : "Product1",
+  "modDate" : "2025-03-06T12:13:54.000+00:00",
+  "iDate" : "2025-03-06T10:08:54.000+00:00",
+  "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",
+  "folder" : "SYSTEM_FOLDER",
+  "siteName" : "demo.dotcms.com",
+  "folderPath" : "/",
+  "icon" : "event_note",
+  "baseType" : "CONTENT",
+  "fields" : [ {
+    "clazz" : "RowField",
+    "id" : "584384218c04e1ed1f53d63ee9285616",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "fields-0",
+    "fieldType" : "Row",
+    "fieldTypeLabel" : "Row",
+    "iDate" : "2025-03-06T10:08:54.000+00:00",
+    "variable" : "fields0",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ColumnField",
+    "id" : "fa5e7cb48369715c90324a5d8a35888b",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "fields-1",
+    "sortOrder" : 1,
+    "fieldType" : "Column",
+    "fieldTypeLabel" : "Column",
+    "iDate" : "2025-03-06T10:08:54.000+00:00",
+    "variable" : "fields1",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "TextField",
+    "id" : "7c406fe2a167bc430aca780084a40066",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "Product Name",
+    "variable" : "productName",
+    "sortOrder" : 2,
+    "fieldType" : "Text",
+    "fieldTypeLabel" : "Text",
+    "iDate" : "2025-03-06T10:09:19.000+00:00",
+    "dataType" : "TEXT"
+  }, {
+    "clazz" : "TextAreaField",
+    "id" : "aa8d3fc4aacd3e513e542ab60a6c101b",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "Product Description",
+    "variable" : "productDescription",
+    "sortOrder" : 3,
+    "fieldType" : "Textarea",
+    "fieldTypeLabel" : "Textarea",
+    "iDate" : "2025-03-06T10:09:37.000+00:00",
+    "dataType" : "LONG_TEXT"
+  }, {
+    "clazz" : "TextField",
+    "id" : "4380fd3de0478d377cc5b0ba87f83180",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "Price",
+    "variable" : "price",
+    "sortOrder" : 4,
+    "fieldType" : "Text",
+    "fieldTypeLabel" : "Text",
+    "iDate" : "2025-03-06T10:09:52.000+00:00",
+    "dataType" : "FLOAT"
+  }, {
+    "clazz" : "RelationshipField",
+    "indexed" : true,
+    "id" : "01fc0c2916ea193caf84e2909ee5b33f",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "Categories",
+    "variable" : "categories",
+    "sortOrder" : 5,
+    "fieldType" : "Relationship",
+    "fieldTypeLabel" : "Relationships Field",
+    "iDate" : "2025-03-06T10:13:47.000+00:00",
+    "dataType" : "SYSTEM",
+    "relationships" : {
+      "velocityVar" : "Category.check",
+      "cardinality" : "MANY_TO_MANY",
+      "isParentField" : null
+    }
+  } ],
+  "metadata" : {
+    "CONTENT_EDITOR2_ENABLED" : false
+  },
+  "workflows" : [ {
+    "id" : "d61a59e1-a49c-46f2-a929-db2b4bfa88b2",
+    "variableName" : "SystemWorkflow"
+  } ],
+  "dotCMSObjectType" : "ContentType"
+}

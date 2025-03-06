@@ -1,0 +1,49 @@
+
+
+
+<style>
+    .container {
+           display: flex;
+           flex-wrap: wrap; 
+           gap: 20px; 
+           justify-content: center; 
+       }
+       .image-card {
+           width: 250px; 
+           border: 1px solid #ccc;
+           border-radius: 8px;
+           overflow: hidden;
+           text-align: center;
+           box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+       }
+       .image-card img {
+           width: 100%;
+           height: auto;
+       }
+       .title, .caption {
+           padding: 10px;
+           font-size: 16px;
+       }
+       .title {
+           font-weight: bold;
+           background: #f4f4f4;
+       }
+       .caption {
+           color: #666;
+       }
+</style>
+<div class="container">
+    #foreach($con in $dotcontent.pull("+contentType:Banner +variant:default",10,"modDate desc"))
+    <div class="image-card">    
+        <div class="title">$con.title</div>
+        <img src="$con.image.thumbnailUri" />
+        <div class="content">$con.caption</div>
+    </div>
+    #end
+      </div>
+      #foreach($con in $dotcontent.pull("+contentType:Category +(conhost:48190c8c-42c4-46af-8d1a-0cd5db894797 
+      conhost:SYSTEM_HOST) +variant:default",10,"modDate desc"))
+        <h2>${con.categoryName}</h2>
+        <p>${con.categoryDescription}</p>
+        <img src="${con.image.categoryImage}" alt="${con.categoryName}" width="200">
+    #end

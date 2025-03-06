@@ -1,0 +1,77 @@
+{
+  "clazz" : "SimpleContentType",
+  "id" : "386069210fe28f08efba6babc2ce3337",
+  "name" : "Category",
+  "variable" : "Category",
+  "modDate" : "2025-03-06T12:13:54.000+00:00",
+  "iDate" : "2025-03-06T10:07:07.000+00:00",
+  "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",
+  "folder" : "SYSTEM_FOLDER",
+  "siteName" : "demo.dotcms.com",
+  "folderPath" : "/",
+  "icon" : "event_note",
+  "baseType" : "CONTENT",
+  "fields" : [ {
+    "clazz" : "RowField",
+    "id" : "1906b22681ae233f97fce5dd2477b74a",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "fields-0",
+    "fieldType" : "Row",
+    "fieldTypeLabel" : "Row",
+    "iDate" : "2025-03-06T10:07:07.000+00:00",
+    "variable" : "fields0",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ColumnField",
+    "id" : "e2c160ecc78e5db433d1386fd557bad5",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "fields-1",
+    "sortOrder" : 1,
+    "fieldType" : "Column",
+    "fieldTypeLabel" : "Column",
+    "iDate" : "2025-03-06T10:07:07.000+00:00",
+    "variable" : "fields1",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "TextField",
+    "id" : "10ccd9c4553e6b437c34995a02d311b5",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "Category Name",
+    "variable" : "categoryName",
+    "sortOrder" : 2,
+    "fieldType" : "Text",
+    "fieldTypeLabel" : "Text",
+    "iDate" : "2025-03-06T10:07:44.000+00:00",
+    "dataType" : "TEXT"
+  }, {
+    "clazz" : "TextAreaField",
+    "id" : "52a5e9aee8ae09d2c7ec6093bd07ec8e",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "Category Description",
+    "variable" : "categoryDescription",
+    "sortOrder" : 3,
+    "fieldType" : "Textarea",
+    "fieldTypeLabel" : "Textarea",
+    "iDate" : "2025-03-06T10:08:03.000+00:00",
+    "dataType" : "LONG_TEXT"
+  }, {
+    "clazz" : "ImageField",
+    "id" : "099f4c322ff8a1ab92e3af6e334cded8",
+    "modDate" : "2025-03-06T12:13:54.000+00:00",
+    "name" : "Category Image",
+    "variable" : "categoryImage",
+    "sortOrder" : 4,
+    "fieldType" : "Image",
+    "fieldTypeLabel" : "Image",
+    "iDate" : "2025-03-06T10:08:21.000+00:00",
+    "dataType" : "TEXT"
+  } ],
+  "metadata" : {
+    "CONTENT_EDITOR2_ENABLED" : false
+  },
+  "workflows" : [ {
+    "id" : "d61a59e1-a49c-46f2-a929-db2b4bfa88b2",
+    "variableName" : "SystemWorkflow"
+  } ],
+  "dotCMSObjectType" : "ContentType"
+}

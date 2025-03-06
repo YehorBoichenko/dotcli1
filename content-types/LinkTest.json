@@ -1,0 +1,76 @@
+{
+  "clazz" : "SimpleContentType",
+  "id" : "e124acb6beb50da63f76b48eb861eefc",
+  "name" : "link test",
+  "variable" : "LinkTest",
+  "modDate" : "2025-03-06T12:13:52.000+00:00",
+  "iDate" : "2025-03-06T09:44:19.000+00:00",
+  "host" : "48190c8c-42c4-46af-8d1a-0cd5db894797",
+  "folder" : "SYSTEM_FOLDER",
+  "siteName" : "demo.dotcms.com",
+  "folderPath" : "/",
+  "icon" : "event_note",
+  "baseType" : "CONTENT",
+  "fields" : [ {
+    "clazz" : "RowField",
+    "id" : "5fd8c3c563d18ad79e972014fea95e46",
+    "modDate" : "2025-03-06T12:13:52.000+00:00",
+    "name" : "fields-0",
+    "fieldType" : "Row",
+    "fieldTypeLabel" : "Row",
+    "iDate" : "2025-03-06T09:44:19.000+00:00",
+    "variable" : "fields0",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "ColumnField",
+    "id" : "4baeba2def5f4fe51c912f405bfbd7df",
+    "modDate" : "2025-03-06T12:13:52.000+00:00",
+    "name" : "fields-1",
+    "sortOrder" : 1,
+    "fieldType" : "Column",
+    "fieldTypeLabel" : "Column",
+    "iDate" : "2025-03-06T09:44:19.000+00:00",
+    "variable" : "fields1",
+    "dataType" : "SYSTEM"
+  }, {
+    "clazz" : "CheckboxField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "08543a443dda21ca9f948b9419a6a149",
+    "modDate" : "2025-03-06T12:13:52.000+00:00",
+    "name" : "Checkbox Field",
+    "variable" : "checkboxField",
+    "sortOrder" : 2,
+    "values" : "yes|no",
+    "fieldType" : "Checkbox",
+    "fieldTypeLabel" : "Checkbox",
+    "iDate" : "2025-03-06T09:44:44.000+00:00",
+    "dataType" : "TEXT"
+  }, {
+    "clazz" : "RelationshipField",
+    "searchable" : true,
+    "indexed" : true,
+    "id" : "a6e00abb2144de598a6dce782b4fc834",
+    "modDate" : "2025-03-06T12:13:52.000+00:00",
+    "name" : "linktest relation",
+    "variable" : "linktestRelation",
+    "sortOrder" : 3,
+    "fieldType" : "Relationship",
+    "fieldTypeLabel" : "Relationships Field",
+    "iDate" : "2025-03-06T09:45:26.000+00:00",
+    "dataType" : "SYSTEM",
+    "relationships" : {
+      "velocityVar" : "Test",
+      "cardinality" : "MANY_TO_MANY",
+      "isParentField" : null
+    }
+  } ],
+  "metadata" : {
+    "CONTENT_EDITOR2_ENABLED" : false
+  },
+  "workflows" : [ {
+    "id" : "d61a59e1-a49c-46f2-a929-db2b4bfa88b2",
+    "variableName" : "SystemWorkflow"
+  } ],
+  "dotCMSObjectType" : "ContentType"
+}
