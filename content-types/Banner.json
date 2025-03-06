@@ -2,7 +2,7 @@
   "clazz" : "SimpleContentType",
   "id" : "4c441ada-944a-43af-a653-9bb4f3f0cb2b",
   "name" : "Banner test name",
-  "variable" : "Banner",
+  "variable" : "Banner test name",
   "modDate" : "2025-03-06T12:13:55.000+00:00",
   "iDate" : "2017-03-09T19:15:45.734+00:00",
   "host" : "SYSTEM_HOST",
