@@ -59,14 +59,7 @@ jobs:
 
       - name: Get changes
         run: |
-          BEFORE_COMMIT=${{ github.event.before }}
-          AFTER_COMMIT=${{ github.event.after }}
-          
-          if [ -z "$BEFORE_COMMIT" ]; then
-            BEFORE_COMMIT="HEAD~1"
-          fi
-          
-          git diff --name-only $BEFORE_COMMIT $AFTER_COMMIT > changed_files.txt
+          git diff --name-only ${{ github.event.before }} ${{ github.event.after }} > changed_files.txt
 
       - name: List changed files
         run: |
